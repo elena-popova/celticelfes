@@ -37,3 +37,5 @@ div.picture img {display:block; margin-left:auto; margin-right:auto; width:720px
 .cat .bio h1{margin-top:0;padding-top:0}
 .cat .bio ul{list-style:none;margin:0;padding:0}
 .cat .bio .label{font-weight:700}	
+
+#galleria{width:940px;height:350px;background:#000;margin:0;padding:0}
