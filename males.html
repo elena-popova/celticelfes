@@ -11,72 +11,36 @@
 <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function() {
-    $("img#panic_thumb1")
-        .mouseover(function() {
-            $("img#panic_main").attr("src", "males/panic1.jpg");
-        })
-        .mouseout(function() {
-            $("img#panic_main").attr("src", "males/panic2.jpg");
-        });
-    $("img#panic_thumb2")
-        .mouseover(function() {
-            $("img#panic_main").attr("src", "males/panic_for_m.jpg");
-        })
-        .mouseout(function() {
-            $("img#panic_main").attr("src", "males/panic2.jpg");
-        });
-    $("img#panic_thumb3")
-        .mouseover(function() {
-            $("img#panic_main").attr("src", "males/panic5.jpg");
-        })
-        .mouseout(function() {
-            $("img#panic_main").attr("src", "males/panic2.jpg");
-        });
+    $("img#panek_thumb1")
+        .mouseover(function() { $("img#panek_main").attr("src", "males/panic1.jpg"); })
+        .mouseout(function() { $("img#panek_main").attr("src", "males/panic2.jpg"); });
+    $("img#panek_thumb2")
+        .mouseover(function() { $("img#panek_main").attr("src", "males/panic_for_m.jpg"); })
+        .mouseout(function() { $("img#panek_main").attr("src", "males/panic2.jpg"); });
+    $("img#panek_thumb3")
+        .mouseover(function() { $("img#panek_main").attr("src", "males/panic5.jpg"); })
+        .mouseout(function() { $("img#panek_main").attr("src", "males/panic2.jpg"); });
 
-    $("img#eclare_thumb1")
-        .mouseover(function() {
-            $("img#eclare_main").attr("src", "males/eclare2.jpg");
-        })
-        .mouseout(function() {
-            $("img#eclare_main").attr("src", "males/eclare1.jpg");
-        });
-    $("img#eclare_thumb2")
-        .mouseover(function() {
-            $("img#eclare_main").attr("src", "males/eclare3.jpg");
-        })
-        .mouseout(function() {
-            $("img#eclare_main").attr("src", "males/eclare1.jpg");
-        });
-    $("img#eclare_thumb3")
-        .mouseover(function() {
-            $("img#eclare_main").attr("src", "males/eclar4.jpg");
-        })
-        .mouseout(function() {
-            $("img#eclare_main").attr("src", "males/eclare1.jpg");
-        });
+    $("img#eclaire_thumb1")
+        .mouseover(function() { $("img#eclaire_main").attr("src", "males/eclare2.jpg"); })
+        .mouseout(function() { $("img#eclaire_main").attr("src", "males/eclare1.jpg"); });
+    $("img#eclaire_thumb2")
+        .mouseover(function() { $("img#eclaire_main").attr("src", "males/eclare3.jpg"); })
+        .mouseout(function() { $("img#eclaire_main").attr("src", "males/eclare1.jpg"); });
+    $("img#eclaire_thumb3")
+        .mouseover(function() { $("img#eclaire_main").attr("src", "males/eclar4.jpg"); })
+        .mouseout(function() { $("img#eclaire_main").attr("src", "males/eclare1.jpg"); });
 
 
     $("img#flash_thumb1")
-        .mouseover(function() {
-            $("img#flash_main").attr("src", "males/flash_1.jpg");
-        })
-        .mouseout(function() {
-            $("img#flash_main").attr("src", "males/flash_for_males.jpg");
-        });
+        .mouseover(function() { $("img#flash_main").attr("src", "males/flash_1.jpg"); })
+        .mouseout(function() { $("img#flash_main").attr("src", "males/flash_for_males.jpg"); });
     $("img#flash_thumb2")
-        .mouseover(function() {
-            $("img#flash_main").attr("src", "males/flash_2.jpg");
-        })
-        .mouseout(function() {
-            $("img#flash_main").attr("src", "males/flash_for_males.jpg");
-        });
+        .mouseover(function() { $("img#flash_main").attr("src", "males/flash_2.jpg"); })
+        .mouseout(function() { $("img#flash_main").attr("src", "males/flash_for_males.jpg"); });
     $("img#flash_thumb3")
-        .mouseover(function() {
-            $("img#flash_main").attr("src", "males/flash_3.jpg");
-        })
-        .mouseout(function() {
-            $("img#flash_main").attr("src", "males/flash_for_males.jpg");
-        });
+        .mouseover(function() { $("img#flash_main").attr("src", "males/flash_3.jpg"); })
+        .mouseout(function() { $("img#flash_main").attr("src", "males/flash_for_males.jpg"); });
 });
 </script>
 <script type="text/javascript">
@@ -119,13 +83,13 @@ $(function() {
 
 <div id="content">
 
-<div class="cat">
+<div id="panek" class="cat">
 	<div class="gallery">
-		<img id="panic_main" src="males/panic2.jpg" />
+		<img id="panek_main" src="males/panic2.jpg" />
 		<ul>
-			<li><img id="panic_thumb1" src="males/panic1_s.jpg" /></li>
-			<li><img id="panic_thumb2" src="males/panic_4m_s.jpg" /></li>
-			<li><img id="panic_thumb3" src="males/panic5_s.jpg" /></li>
+			<li><img id="panek_thumb1" src="males/panic1_s.jpg" /></li>
+			<li><img id="panek_thumb2" src="males/panic_4m_s.jpg" /></li>
+			<li><img id="panek_thumb3" src="males/panic5_s.jpg" /></li>
 		</ul>
 	</div>
 	<div class="bio">
@@ -134,35 +98,34 @@ $(function() {
 			<li><span class="label">Sire:</span> Alexandroff Phocus-Pocus</li>
 			<li><span class="label">Dam:</span> Bijou Arnikor*PL </li>
 			<li><span class="label">DoB:</span> 2 Oct 2010</li>
-			<li><span class="label">Color:</span>  Red Bi-Colour</li>
+			<li><span class="label">Color:</span> Red Bi-Colour</li>
 			<li><span class="label">Blood Type:</span> B</li>
 		</ul>
-		</div>
+    </div>
 </div>
 
-<div class="cat">
+<div id="eclaire" class="cat">
 	<div class="gallery">
-		<img id="eclare_main" src="males/eclare.jpg" />
+		<img id="eclaire_main" src="males/eclare.jpg" />
 		<ul>
-			<li><img id="eclare_thumb1" src="males/eclare2_s.jpg" /></li>
-			<li><img id="eclare_thumb2" src="males/eclare3_S.jpg" /></li>
-			<li><img id="eclare_thumb3" src="males/eclar4S.jpg" /></li>
+			<li><img id="eclaire_thumb1" src="males/eclare2_s.jpg" /></li>
+			<li><img id="eclaire_thumb2" src="males/eclare3_S.jpg" /></li>
+			<li><img id="eclaire_thumb3" src="males/eclar4S.jpg" /></li>
 		</ul>
 	</div>
 	<div class="bio">
-		<h1>CelticElfes Eclare</h1>
+		<h1>Celticelfes Eclaire</h1>
 		<ul>
-			<li><span class="label">Father:</span> <a href="#panic">PL* Agubamka Domalien (Panek)</a></li>
-			<li><span class="label">Mother:</span><a href="#hanna">Rogus Bessie Basset (Hanna)</a> </li>
-			<li><span class="label">DoB:</span>07 June 2012 </li>
-			<li><span class="label">Color:</span>  Red Bi-color</li>
+			<li><span class="label">Father:</span> <a href="#panek">PL* Agubamka Domalien (Panek)</a></li>
+			<li><span class="label">Mother:</span> <a href="females.html#hanna">Rogus Bessie Basset (Hanna)</a> </li>
+			<li><span class="label">DoB:</span>07 June 2012</li>
+			<li><span class="label">Color:</span> Red Bi-color</li>
 			<li><span class="label">Blood Type:</span>B </li>
 		</ul>
-		<h2>Litters</h2>
 	</div>
 </div>
 
-<div class="cat">
+<div id="flash" class="cat">
 	<div class="gallery">
 		<img id="flash_main" src="males/flash_for_males.jpg" />
 		<ul>
@@ -174,13 +137,12 @@ $(function() {
 	<div class="bio">
 		<h1>Flash</h1>
 		<ul
-			<li><span class="label">Father:</span> <a href="#panic">PL Agubamka Domalien (Panic)</a></li>
-			<li><span class="label">Mother:</span> </li>
-			<li><span class="label">DoB:</span> </li>
-			<li><span class="label">Color:</span>  Black Smoke</li>
+			<li><span class="label">Father:</span> <a href="#panek">PL* Agubamka Domalien (Panek)</a></li>
+			<li><span class="label">Mother:</span> <a href="females.html#nina">"Nina" Rogus Mamma Cass</a></li>
+			<li><span class="label">DoB:</span> 21 Jun 2012</li>
+			<li><span class="label">Color:</span> Black Smoke</li>
 			<li><span class="label">Blood Type:</span> </li>
 		</ul>
-		<h2>Litters</h2>
 	</div>
 </div>
 
@@ -191,13 +153,13 @@ $(function() {
 <tr style="background-color:#333; font-size:15px; height:17px">
 
 <!-- anchor to top of page -->
-<td>&copy; Celtic Elfes</td>
+<td>&copy; 2012 Celtic Elfes</td>
 <td>
 <a href="http://www.facebook.com/#!/lastauskiene?fref=ts" target="_blank">
 <img border="0" src="images/fb.jpg" alt="FB" width="32" height="32" />
 </a>
 </td>
-<td>Designed by alien_masha</td>
+<td align="right">Designed by alien_masha</td>
 </tr>
 
 </table>
