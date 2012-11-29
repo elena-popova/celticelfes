@@ -20,6 +20,10 @@ div#footer-container div#footer table{margin:5px auto 5px; background-color:dark
 a {color:#188007}
 a:hover {color:#188007}
 a:visited {color:#F0E68C}
+
+div#footer a {color:#188007; font-weight:700}
+div#footer a:hover {color:#188007}
+div#footer a:visited {color:#F0E68C}
 div.picture img {display:block; margin-left:auto; margin-right:auto; width:720px; height:540px}
 
 .litter .gallery img{display:block;width:300px}
