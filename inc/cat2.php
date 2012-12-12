@@ -12,8 +12,16 @@
   echo "\t<div class=\"bio\">\n";
   echo "\t\t<h3>".$cat->name."</h3>\n";
   echo "\t\t<ul>\n";
-  echo "\t\t\t<li><span class=\"label\">Sire:</span> ".$cat->sire->name."</li>\n";
-  echo "\t\t\t<li><span class=\"label\">Dam:</span> ".$cat->dam->name."</li>\n";
+  if ($cat->sire->url) {
+   echo "\t\t\t<li><span class=\"label\">Sire:</span> <a href=\"".$cat->sire->url."\">".$cat->sire->name."</a></li>\n";
+  } else {
+   echo "\t\t\t<li><span class=\"label\">Sire:</span> ".$cat->sire->name."</li>\n";
+  }
+  if ($cat->dam->url) {
+   echo "\t\t\t<li><span class=\"label\">Dam:</span> <a href=\"".$cat->dam->url."\">".$cat->dam->name."</a></li>\n";
+  } else {
+   echo "\t\t\t<li><span class=\"label\">Dam:</span> ".$cat->dam->name."</li>\n";
+  }
   echo "\t\t\t<li><span class=\"label\">DoB:</span> ".$cat->dob."</li>\n";
   echo "\t\t\t<li><span class=\"label\">Colour:</span> ".$cat->colour."</li>\n";
   echo "\t\t\t<li><span class=\"label\">Blood Type:</span> ".$cat->bloodType."</li>\n";
