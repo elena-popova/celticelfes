@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cats>
+	<cat>
+		<tag>hanna</tag>
+		<name>Rogus Bessie Basset (Hanna)</name>
+		<dob>13 Mar 2011</dob>
+		<colour>Cream</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>Rogus Willybonka</name>
+		</sire>
+		<dam>
+			<name>Rexintons She Bangz</name>
+		</dam>
+		<pictures>
+			<main>females/hanna_for_females.jpg</main>
+			<others>
+				<other>
+					<small>females/hanna1_s.jpg</small>
+					<large>females/hanna1.jpg</large>
+				</other>
+				<other>
+					<small>females/hanna_2_s.jpg</small>
+					<large>females/hanna_2.jpg</large>
+				</other>
+				<other>
+					<small>females/hanna_3_s.jpg</small>
+					<large>females/hanna_3.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+	<cat>
+		<tag>nina</tag>
+		<name>Rogus Mamma Cass (Nina)</name>
+		<dob>01 Apr 2011</dob>
+		<colour>Black Smoke</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>Rexellence Willy-Ornot</name>
+		</sire>
+		<dam>
+			<name>Rogus Rosy Poppet</name>
+		</dam>
+		<results>
+			<result>
+				<award>Challenge Certificate (GCCFI)</award>
+				<show>GCCFI Supreme Show, April 2012</show>
+			</result>
+			<result>
+				<award>Challenge Certificate (GCCFI)</award>
+				<show>SABCCI, October 2012</show>
+			</result>
+		</results>
+		<pictures>
+			<main>females/nina_for_females.jpg</main>
+			<others>
+				<other>
+					<small>females/nina2_S.jpg</small>
+					<large>females/nina2.jpg</large>
+				</other>
+				<other>
+					<small>females/nina3_s.jpg</small>
+					<large>females/nina3.jpg</large>
+				</other>
+				<other>
+					<small>females/nina4S.jpg</small>
+					<large>females/nina4.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+	<cat>
+		<tag>lola</tag>
+		<name>Rogus Maggie-May (Lola)</name>
+		<dob>13 Mar 2011</dob>
+		<colour>Crea-white</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>Rogus Willybonka</name>
+		</sire>
+		<dam>
+			<name> Rexintons She Bangz</name>
+		</dam>
+		<pictures>
+			<main>females/lola_for_females.jpg</main>
+			<others>
+				<other>
+					<small>females/lola1S.jpg</small>
+					<large>females/lola1.jpg</large>
+				</other>
+				<other>
+					<small>females/lola2_s.jpg</small>
+					<large>females/lola2.jpg</large>
+				</other>
+				<other>
+					<small>females/lola4S.jpg</small>
+					<large>females/lola4.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+</cats>

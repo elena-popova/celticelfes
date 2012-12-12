@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cats>
+	<cat>
+		<tag>panek</tag>
+		<name>PL* Agubamka Domalien (Panek)</name>
+		<dob>2 Oct 2010</dob>
+		<colour>Red Bi-Colour</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>Alexandroff Phocus-Pocus</name>
+		</sire>
+		<dam>
+			<name>Bijou Arnikor*PL</name>
+		</dam>
+		<results>
+			<result>
+				<award>EX1</award>
+				<show>FIFE, February 2011</show>
+			</result>
+			<result>
+				<award>EX1, NOM BIS</award>
+				<show>FIFE, Febrauary 2011</show>
+			</result>
+			<result>
+				<award>Challenge Certificate (GCCFI)</award>
+				<show>SABCCI, October 2011</show>
+			</result>
+			<result>
+				<award>Challenge Certificate (GCCFI)</award>
+				<show>Midland Cat Club, February 2012</show>
+			</result>
+		</results>
+		<pictures>
+			<main>males/panic2.jpg</main>
+			<others>
+				<other>
+					<small>males/panic1_s.jpg</small>
+					<large>males/panic1.jpg</large>
+				</other>
+				<other>
+					<small>males/panic_4m_s.jpg</small>
+					<large>males/panic_for_m.jpg</large>
+				</other>
+				<other>
+					<small>males/panic5_s.jpg</small>
+					<large>males/panic5.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+	<cat>
+		<tag>eclaire</tag>
+		<name>Celticelfes Eclaire</name>
+		<dob>7 June 2012</dob>
+		<colour>Red Bi-color</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>PL* Agubamka Domalien (Panek)</name>
+			<url>males.php#panek</url>
+		</sire>
+		<dam>
+			<name>Rogus Bessie Basset (Hanna)</name>
+			<url>females.php#hanna</url>
+		</dam>
+		<pictures>
+			<main>males/eclare.jpg</main>
+			<others>
+				<other>
+					<small>males/eclare2_s.jpg</small>
+					<large>males/eclare2.jpg</large>
+				</other>
+				<other>
+					<small>males/eclare3_S.jpg</small>
+					<large>males/eclare3.jpg</large>
+				</other>
+				<other>
+					<small>males/eclar4S.jpg</small>
+					<large>males/eclar4.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+	<cat>
+		<tag>flash</tag>
+		<name>CelticElfes Flash</name>
+		<dob>21 Jun 2012</dob>
+		<colour>Black Smoke</colour>
+		<bloodType>B</bloodType>
+		<sire>
+			<name>PL* Agubamka Domalien (Panek)</name>
+			<url>males.php#panek</url>
+		</sire>
+		<dam>
+			<name>Rogus Mamma (Nina)</name>
+			<url>females.php#nina</url>
+		</dam>
+		<pictures>
+			<main>males/flash_for_males.jpg</main>
+			<others>
+				<other>
+					<small>males/flash_1_s.jpg</small>
+					<large>males/flash_1.jpg</large>
+				</other>
+				<other>
+					<small>males/flash_2_s.jpg</small>
+					<large>males/flash_2.jpg</large>
+				</other>
+				<other>
+					<small>males/flash_3s.jpg</small>
+					<large>males/flash_3.jpg</large>
+				</other>
+			</others>
+		</pictures>
+	</cat>
+</cats>
