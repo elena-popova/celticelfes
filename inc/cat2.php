@@ -22,7 +22,7 @@
   } else {
    echo "\t\t\t<li><span class=\"label\">Dam:</span> ".$cat->dam->name."</li>\n";
   }
-  echo "\t\t\t<li><span class=\"label\">DoB:</span> ".$cat->dob."</li>\n";
+  echo "\t\t\t<li><span class=\"label\">Born:</span> ".$cat->dob."</li>\n";
   echo "\t\t\t<li><span class=\"label\">Colour:</span> ".$cat->colour."</li>\n";
   echo "\t\t\t<li><span class=\"label\">Blood Type:</span> ".$cat->bloodType."</li>\n";
   echo "\t\t</ul>\n";
