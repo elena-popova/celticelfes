@@ -9,20 +9,19 @@
    var data = [
     <?php
      $xml = simplexml_load_file('data/gallery.xml');
-     foreach ($xml->xpath('//item') as $item) {
-      echo "\t{ image:'".$item->image."'";
-      if ($item->title) {
+     foreach ($xml->xpath('//item') as $item) { ?>
+      { image:'<?=$item->image?>'
+      <?php if ($item->title) { ?>
        echo ", title:'".$item->title."'";
-      }
-      if ($item->description) {
-       echo ", description:'".$item->description."'";
-      }
-      if ($item->layer) {
-       echo ", layer:'".$item->layer."'";
-      }
-      echo " },\n";
-     }
-    ?>
+      <?php }
+      if ($item->description) { ?>
+       , description:'<?=$item->description?>'
+      <?php }
+      if ($item->layer) { ?>
+       , layer:'<?=$item->layer?>'
+      <?php } ?>
+      },
+     <?php } ?>
    ];
    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
    Galleria.run('#galleria', { dataSource: data, lightbox: true, showInfo: true });
