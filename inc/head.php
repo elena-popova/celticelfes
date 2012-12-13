@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 <link rel="icon" href="/images/favicon.png" type="image/png" />
 <link rel="shortcut icon" href="/favicon.ico" />
+<title><?=$title?> | Pedigree Devon Rex kittens for sale in Ireland</title>
 <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];

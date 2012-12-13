@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
  <?php $tab = 0 ?>
+ <?php $title = 'Celticelfes' ?>
  <head>
   <?php include('inc/head.php'); ?>
-  <title>Celticelfes | Pedigree Devon Rex kittens for sale in Ireland</title>
  </head>
  <body>
   <div id="fb-root"></div>

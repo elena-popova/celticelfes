@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
  <?php $tab = 1 ?>
+ <?php $title = 'Celticelfes Sires' ?>
  <?php $xml = simplexml_load_file('data/males.xml'); ?>
  <head>
   <?php include('inc/head.php'); ?>
-  <title>Celticelfes Dams | Pedigree Devon Rex kittens for sale in Ireland</title>
   <?php include('inc/cat1.php'); ?>
  </head>
  <body>

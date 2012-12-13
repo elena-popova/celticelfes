@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
  <?php $tab = 4 ?>
+ <?php $title = 'Celticelfes Gallery' ?>
  <head>
   <?php include('inc/head.php'); ?>
-  <title>Celticelfes Gallery | Pedigree Devon Rex kittens for sale in Ireland</title>
-  <link rel="stylesheet" type="text/css" href="ad-gallery/jquery.ad-gallery.css">
   <script src="galleria/galleria-1.2.8.min.js"></script>
   <script type="text/javascript">
    var data = [
