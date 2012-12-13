@@ -14,7 +14,7 @@ body {background:#000; margin:0; min-width:960px;}
 #header-container table { margin:0 auto; position:relative}
 #header-container table#menu {margin-top:5px}
 #header-container table#banner {margin-top:20px}
-#content { padding-top:200px;padding-bottom:24px;color:#F0E68C; font-size:25px }
+#content { margin-top:240px;margin-bottom:100px;color:#F0E68C; font-size:25px }
 #footer-container { position:fixed; bottom:0; left:0;width:100%}
 #footer table{margin:5px auto 5px; background-color:darkgreen; width:960px}
 #footer table tr{background-color:#333;font-size:15px;height:15px}
@@ -25,7 +25,7 @@ a:visited {color:#F0E68C}
 #footer a {color:#188007; font-weight:700}
 #footer a:hover {color:#188007}
 #footer a:visited {color:#F0E68C}
-div.picture img {display:block; margin-left:auto; margin-right:auto; width:720px; height:540px}
+.picture img {display:block; margin-left:auto; margin-right:auto; width:720px; height:540px}
 
 .litter .gallery img{display:block;width:300px}
 .litter .gallery .caption{text-align:center}

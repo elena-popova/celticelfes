@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litters>
+	<litter>
+		<name>Panek and Nina</name>
+		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#nina"&gt;Nina&lt;/a&gt;
+		had &lt;a href="males.php#flash"&gt;Flash&lt;/a&gt; and Fenix on 21 Jun 2012.</description>
+		<pictures>
+			<picture>
+				<url>kittens/panek-nina.jpg</url>
+				<caption>Fenix &amp; &lt;a href="males.php#flash"&gt;Flash&lt;/a&gt;</caption>
+			</picture>
+			<picture>
+				<url>kittens/flash.jpg</url>
+				<caption>&lt;a href="males.php#flash"&gt;Flash&lt;/a&gt;</caption>
+			</picture>
+			<picture>
+				<url>kittens/fenix.jpg</url>
+				<caption>Fenix</caption>
+			</picture>
+		</pictures>
+	</litter>
+	<litter>
+		<name>Panek and Hanna</name>	
+		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#hanna"&gt;Hanna&lt;/a&gt; had 
+		Eclaire and Eclipse on 7 Jun 2012.</description>
+		<pictures>
+			<picture/>
+			<picture>
+				<url>kittens/eclips.JPG</url>
+				<caption>Eclipse</caption>
+			</picture>
+			<picture>
+				<url>kittens/eclaire.jpg</url>
+				<caption>&lt;a href="males.php#eclaire"&gt;Eclaire&lt;/a&gt;</caption>
+			</picture>
+		</pictures>
+	</litter>
+	<litter>
+		<name>Panek and Lola</name>
+		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#lola"&gt;Lola&lt;/a&gt; had 
+		Disel and Domingo on 3 April 2012</description>
+		<pictures>
+			<picture>
+				<url>kittens/Panek-Lola.JPG</url>
+				<caption>Disel and Domingo</caption>
+			</picture>
+			<picture>
+				<url>kittens/Dyzel.JPG</url>
+				<caption>Disel</caption>
+			</picture>
+			<picture>
+				<url>kittens/Domingo.JPG</url>
+				<caption>Domingo</caption>
+			</picture>
+		</pictures>
+	</litter>
+</litters>
