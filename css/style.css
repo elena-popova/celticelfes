@@ -13,7 +13,7 @@ body {background:#000; margin:0; min-width:960px;}
 #header-container {height: 260px }
 #header-container table { margin:0 auto; position:relative}
 #header-container table#menu {margin-top:5px}
-#header-container table#banner {margin-top:20px}
+#header-container table#banner {margin-top:5px}
 #content { margin-top:240px;margin-bottom:100px;color:#F0E68C; font-size:25px }
 #footer-container { position:fixed; bottom:0; left:0;width:100%}
 #footer table{margin:5px auto 5px; background-color:darkgreen; width:960px}
