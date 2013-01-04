@@ -15,3 +15,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+
+<?php
+	$facebookurl="http://www.facebook.com/lastauskiene";
+	$emailaddr="info@celticelfes.com";
+?>

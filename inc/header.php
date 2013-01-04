@@ -13,6 +13,7 @@
 				<th <?php if ($tab == 2) echo "class=\"selected\""?> ><a href="females.php">FEMALES</a></th>
 				<th <?php if ($tab == 3) echo "class=\"selected\""?> ><a href="kittens.php">KITTENS</a></th>
 				<th <?php if ($tab == 4) echo "class=\"selected\""?> ><a href="gallery.php ">GALLERY</a> </th>
+				<th <?php if ($tab == 5) echo "class=\"selected\""?> ><a href="contactus.php">CONTACT US</a></th>
 			</tr>
 		</table>
 	</div>

@@ -23,8 +23,8 @@
 <img src="kittens/g/litter.jpg" style="padding-left:240px" />
 <p>
     Contact us by 
-	e-mail at <a href="mailto:info@celticelfes.com?Subject=Devon%20Rex%20-%20Litter%20G">info@celticelfes.com</a> or via
-    <a href="http://www.facebook.com/#!/lastauskiene?fref=ts" target="_parent">Facebook</a>.
+	e-mail at <a href="mailto:<?=$emailaddr?>?Subject=Devon%20Rex%20-%20Litter%20G"><?=$emailaddr?>/a> or via
+    <a href="<?=$facebookurl?>" target="_parent">Facebook</a>.
 </p>
 <div class="new">
 	<div id="new1">

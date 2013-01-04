@@ -50,7 +50,7 @@ in mid-December. All our kittens:
 	<li>Are registered with <a href="http://www.gccfi.com/">The Governing Council of the Cat Fancy of Ireland</a></li>
 	<li>3 generation pedigree form is available upon request</li>
 </ul>
-Contact us by e-mail at <a href="mailto:info@celticelfes.com">info@celticelfes.com</a> to inquire about
+Contact us by e-mail at <a href="mailto:<?=$emailaddr?>"><?=$emailaddr?></a> to inquire about
 availability and pricing.</p>
 <h5><a name="dr">Devon Rex</a></h5>
  <p>A bit about Devon Rex breed:<br/>
