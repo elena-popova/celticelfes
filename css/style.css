@@ -8,14 +8,14 @@ body {background:#000; margin:0; min-width:960px;}
 #menu tr{height:26px}
 #menu tr th.selected{background-color:#105005}
 #menu tr th.selected a{color:darkgray}
-#main {margin:20px auto 24px; width:960px}
-#header-wrap {position: fixed; top: 0; left: 0; width:100%}
+#main {margin:20px auto 24px;width:960px}
+#header-wrap {position:fixed;top:0;left:0;width:100%}
 #header-container {height: 260px }
 #header-container table { margin:0 auto; position:relative}
 #header-container table#menu {margin-top:5px}
 #header-container table#banner {margin-top:5px}
-#content { margin-top:240px;margin-bottom:100px;color:#F0E68C; font-size:25px }
-#footer-container { position:fixed; bottom:0; left:0;width:100%}
+#content{margin-top:240px;margin-bottom:100px;color:#F0E68C;font-size:18px}
+#footer-container{clear:both;width:100%}
 #footer table{margin:5px auto 5px; background-color:darkgreen; width:960px}
 #footer table tr{background-color:#333;font-size:15px;height:15px}
 a {color:#188007}
@@ -27,11 +27,14 @@ a:visited {color:#F0E68C}
 #footer a:visited {color:#F0E68C}
 .picture img {display:block; margin-left:auto; margin-right:auto; width:720px; height:540px}
 
+.new div{width:220px;float:left;position:relative;z-index:-1;overflow:hidden;padding:0 10px}
+.new div img{padding-top:4px}
+.new div p.name{text-align:center;font-weight:400;background-color:#105005;padding:4px 0}
+.new div p.status{text-align:center;font-weight:400}
+.litter{clear:both}
 .litter .gallery img{display:block;width:300px}
 .litter .gallery .caption{text-align:center}
-.litter .gallery .col1{float:left;width:300px}
-.litter .gallery .col3{float:right;width:300px}
-.litter .gallery .col2{padding:0 320px 0 320px}
+.litter .gallery .col{width:300px;float:left;position:relative;z-index:-1;overflow:hidden;padding:0 10px}
 
 .cat{clear:both}
 .cat .gallery{float:left;width:460px;margin:0;padding:0}
