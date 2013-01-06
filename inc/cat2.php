@@ -9,7 +9,13 @@
    </ul>
   </div>
   <div class="bio">
-   <h3><?=$cat->name?></h3>
+   <h3>
+      <?php if (file_exists("images/" . $cat->tag . ".png")) { ?>
+      <img src="images/<?=$cat->tag?>.png" alt="<?=$cat->name?>" />
+      <?php } else { ?>
+      <?=$cat->name?>
+      <?php } ?>
+      </h3>
    <ul>
     <?php if ($cat->sire->url) { ?>
      <li><span class=\"label\">Sire:</span> <a href="<?=$cat->sire->url?>"><?=$cat->sire->name?></a></li>

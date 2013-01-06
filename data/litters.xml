@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <litters>
 	<litter>
+		<tag>f</tag>
 		<name>Panek and Nina</name>
 		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#nina"&gt;Nina&lt;/a&gt;
 		had &lt;a href="males.php#flash"&gt;Flash&lt;/a&gt; and Fenix on 21 Jun 2012.</description>
@@ -20,6 +21,7 @@
 		</pictures>
 	</litter>
 	<litter>
+		<tag>e</tag>
 		<name>Panek and Hanna</name>	
 		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#hanna"&gt;Hanna&lt;/a&gt; had 
 		Eclaire and Eclipse on 7 Jun 2012.</description>
@@ -36,6 +38,7 @@
 		</pictures>
 	</litter>
 	<litter>
+		<tag>d</tag>
 		<name>Panek and Lola</name>
 		<description>&lt;a href="males.php#panek"&gt;Panek&lt;/a&gt; and &lt;a href="females.php#lola"&gt;Lola&lt;/a&gt; had 
 		Disel and Domingo on 3 April 2012</description>

@@ -14,7 +14,7 @@
   <div id="main">
    <?php include('inc/header.php'); ?>
    <div id="content">
-<h1>New Arrivals</h1>
+<h1><img src="images/new.png" alt="New Arrivals"/></h1>
 <p>
 	<a href="males.html#panek">PL* Agumbamka Domalien (Panek)</a> and 
 	<a href="females.html#lola">Rogus Maggie-May (Lola)</a> had kittens on December 22, 2012. 
@@ -69,7 +69,11 @@
      foreach ($xml->xpath('//litter') as $litter) {
      ?>
 		<div class="litter">
+		<?php if (file_exists("images/litter_" . $litter->tag . ".png")) { ?>
+		<img src="images/litter_<?=$litter->tag?>.png" alt="<?=$litter->name?>" />
+		<?php } else { ?>
 		<h1><?=$litter->name?></h1>
+		<?php } ?>
 		<p><?=$litter->description?></p>	
 		<div class="gallery">
 		<?php if ($litter->pictures->picture[0]->url) { ?>

@@ -13,14 +13,14 @@
 <div id="content">
 <!--Devon Rex_photo-->
 <p>
-<h3 style="margin-left:400px"> <a href="#dr">Devon Rex</a> </h3>
+<h3 style="margin-left:400px"> <a href="#dr"><img src="images/devon_green.png" alt="Devon Rex"/></a> </h3>
 <img src="images/eclare.jpg"alt="Eclare" width="400" height="400" align="left" style="margin-right:20px" />
-Hi, I'm Erika.<br/>
-I live in a pretty village by the sea on the east coast of Ireland.<br/>
-My interest in cats began four years ago. I always loved pets. I used to have dogs, but my partner developed an allergy to them, therefore we had to give the dogs to my parents. Understandably we were upset to let the dogs go.<br/>
-I decided to investigate what alternative pet options we might have. <br/>
-We discovered a hairless Canadian Sphynx cat, which completely stole our hearts!!!!<br/>
- We had our first Sphynx and she performed very well in shows...<br/>
+<p>Hi, I'm Erika.</p>
+<p>I live in a pretty village by the sea on the east coast of Ireland.</p>
+<p>My interest in cats began four years ago. I always loved pets. I used to have dogs, but my partner developed an allergy to them, therefore we had to give the dogs to my parents. Understandably we were upset to let the dogs go.</p>
+<p>I decided to investigate what alternative pet options we might have.</p>
+<p>We discovered a hairless Canadian Sphynx cat, which completely stole our hearts!!!!</p>
+<p>We had our first Sphynx and she performed very well in shows...</p>
 <img src="images/tom_cat.jpg"alt="tom" width="400" height="400" align="right" style="margin-left:20px" />
  However, at one particular show I was stopped in my tracks, when there appeared before me a little miracle!!!<br/>
 A little Elfe with big eyes, big ears, nice curly coat was looking at me.<br/>
@@ -52,7 +52,7 @@ in mid-December. All our kittens:
 </ul>
 Contact us by e-mail at <a href="mailto:<?=$emailaddr?>"><?=$emailaddr?></a> to inquire about
 availability and pricing.</p>
-<h5><a name="dr">Devon Rex</a></h5>
+<h5 id="dr"><a name="dr">Devon Rex</a></h5>
  <p>A bit about Devon Rex breed:<br/>
  The Devon Rex is a breed of cat with a curly, very soft short coat similar to that of the Cornish Rex. They are often associated with being one of the most hypo-allergenic cats available because of their type of coat.
 
