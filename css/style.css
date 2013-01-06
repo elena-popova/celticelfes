@@ -1,22 +1,22 @@
 th{background:#333;}
 body {background:#000; margin:0; min-width:960px;}
-#banner{background-color:dimgrey}
+#banner{background-color:#696969}
 #banner tr th#logo{width:700px}
 #banner tr th#logo img{width:750px;height:150px}
 #banner tr th#picture img{width:200px;height:150px}
-#menu{width:960px;background-color:darkgreen;border-width:1px}
+#menu{width:960px;background-color:#006400;border-width:1px}
 #menu tr{height:26px}
 #menu tr th.selected{background-color:#105005}
-#menu tr th.selected a{color:darkgray}
+#menu tr th.selected a{color:#A9A9A9}
 #main {margin:20px auto 24px;width:960px}
-#header-wrap {position:fixed;top:0;left:0;width:100%}
+#header-wrap {position:fixed;top:0;left:0;width:100%;z-index:100000}
 #header-container {height: 260px }
 #header-container table { margin:0 auto; position:relative}
 #header-container table#menu {margin-top:5px}
 #header-container table#banner {margin-top:5px}
 #content{margin-top:240px;margin-bottom:100px;color:#F0E68C;font-size:18px}
 #footer-container{clear:both;width:100%}
-#footer table{margin:5px auto 5px; background-color:darkgreen; width:960px}
+#footer table{margin:5px auto 5px; background-color:#006400; width:960px}
 #footer table tr{background-color:#333;font-size:15px;height:15px}
 a {color:#188007}
 a:hover {color:#188007}
@@ -27,10 +27,10 @@ a:visited {color:#F0E68C}
 #footer a:visited {color:#F0E68C}
 .picture img {display:block; margin-left:auto; margin-right:auto; width:720px; height:540px}
 
-.new div{width:220px;float:left;position:relative;z-index:-1;overflow:hidden;padding:0 10px}
-.new div img{padding-top:4px}
-.new div p.name{text-align:center;font-weight:400;background-color:#105005;padding:4px 0}
-.new div p.status{text-align:center;font-weight:400}
+div.new div{width:220px;float:left;position:relative;padding:0 10px}
+div.new div img{padding-top:4px}
+div.new div p.name{text-align:center;font-weight:400;background-color:#105005;padding:4px 0}
+div.new div p.status{text-align:center;font-weight:400}
 .litter{clear:both}
 .litter .gallery img{display:block;width:300px}
 .litter .gallery .caption{text-align:center}

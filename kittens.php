@@ -4,9 +4,12 @@
  <?php $title = 'Celticelfes Kittens' ?>
  <head>
   <?php include('inc/head.php'); ?>
-  <script src="galleria/galleria-1.2.8.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>	
   <script type="text/javascript">
-   Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+   $(function() { 
+  	$('a.lightbox').lightBox();
+   }); 
   </script>
  </head>
  <body>
@@ -14,56 +17,56 @@
   <div id="main">
    <?php include('inc/header.php'); ?>
    <div id="content">
-<h1><img src="images/new.png" alt="New Arrivals"/></h1>
-<p>
-	<a href="male.php#panek">PL* Agumbamka Domalien (Panek)</a> and 
-	<a href="females.php#lola">Rogus Maggie-May (Lola)</a> had kittens on December 22, 2012. 
-	There are four kittens available for sale and collection at 12 weeks.
-</p>
-<img src="kittens/g/litter.jpg" style="padding-left:240px" />
-<p>
-    Contact us by 
-	e-mail at <a href="mailto:<?=$emailaddr?>?Subject=Devon%20Rex%20-%20Litter%20G"><?=$emailaddr?></a> or via
-    <a href="<?=$facebookurl?>" target="_parent">Facebook</a>.
-</p>
-<div class="new">
-	<div id="new1">
-		<p class="name">
-			Red Tabby Bicolor<br/>
-		 	Female
-		</p>
-		<p class="status">Available</p>
-		<img src="kittens/g/1as.jpg" />
-		<img src="kittens/g/1bs.jpg" />
-	</div>
-	<div id="new2">
-		<p class="name">
-			Red Tabby Bicolor<br/>
-		 	Male
-		</p>
-		<p class="status">Available</p>
-		<img src="kittens/g/2as.jpg" />
-		<img src="kittens/g/2bs.jpg" />
-	</div>
-	<div id="new3">
-		<p class="name">
-			Red Tabby<br/>
-		 	Male
-		</p>
-		<p class="status">Available</p>
-		<img src="kittens/g/3as.jpg" />
-		<img src="kittens/g/3bs.jpg" />
-	</div>
-	<div id="new4">
-		<p class="name">
-			Cream Point<br/>
-		 	Female
-		</p>
-		<p class="status">Reserved</p>
-		<img src="kittens/g/4as.jpg" />
-		<img src="kittens/g/4bs.jpg" />
-	</div>
-</div>
+    <h1><img src="images/new.png" alt="New Arrivals"/></h1>
+    <p>
+  	 <a href="male.php#panek">PL* Agumbamka Domalien (Panek)</a> and 
+	 <a href="females.php#lola">Rogus Maggie-May (Lola)</a> had kittens on December 22, 2012. 
+     There are four kittens available for sale and collection at 12 weeks.
+    </p>
+    <img src="kittens/g/litter.jpg" style="padding-left:240px" />
+    <p>
+     Contact us by 
+     e-mail at <a href="mailto:<?=$emailaddr?>?Subject=Devon%20Rex%20-%20Litter%20G"><?=$emailaddr?></a> or via
+     <a href="<?=$facebookurl?>" target="_parent">Facebook</a>.
+    </p>
+    <div class="new">
+	 <div id="new1">
+	  <p class="name">
+       Red Tabby Bicolor<br/>
+       Female
+      </p>
+      <p class="status">Available</p>
+      <a href="kittens/g/1al.jpg" class="lightbox"><img src="kittens/g/1as.jpg"/></a>
+      <a href="kittens/g/1bl.jpg" class="lightbox"><img src="kittens/g/1bs.jpg"/></a>
+     </div>
+     <div id="new2">
+      <p class="name">
+       Red Tabby Bicolor<br/>
+       Male
+      </p>
+      <p class="status">Available</p>
+      <a href="kittens/g/2al.jpg" class="lightbox"><img src="kittens/g/2as.jpg"/></a>
+      <a href="kittens/g/2bl.jpg" class="lightbox"><img src="kittens/g/2bs.jpg"/></a>
+	 </div>
+	 <div id="new3">
+	  <p class="name">
+	   Red Tabby<br/>
+	   Male
+	  </p>
+	  <p class="status">Available</p>
+	  <a href="kittens/g/3al.jpg" class="lightbox"><img src="kittens/g/3as.jpg"/></a>
+	  <a href="kittens/g/3bl.jpg" class="lightbox"><img src="kittens/g/3bs.jpg"/></a>
+	 </div>
+	 <div id="new4">
+	  <p class="name">
+	   Cream Point<br/>
+       Female
+      </p>
+      <p class="status">Reserved</p>
+      <a href="kittens/g/4al.jpg" class="lightbox"><img src="kittens/g/4as.jpg"/></a>
+      <a href="kittens/g/4bl.jpg" class="lightbox"><img src="kittens/g/4bs.jpg"/></a>
+     </div>
+    </div>
     <?php
      $xml = simplexml_load_file('data/litters.xml');
      foreach ($xml->xpath('//litter') as $litter) {
@@ -94,9 +97,10 @@
 			<div class="caption"><?=$litter->pictures->picture[2]->caption?></div>
 		</div>
 		<?php } ?>
+		</div>
 	</div>
 	<?php } ?>
-   </div>
+  </div>
    <?php include('inc/footer.php'); ?>
   </div>
  </body>
