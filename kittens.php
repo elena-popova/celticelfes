@@ -16,14 +16,14 @@
    <div id="content">
 <h1><img src="images/new.png" alt="New Arrivals"/></h1>
 <p>
-	<a href="males.html#panek">PL* Agumbamka Domalien (Panek)</a> and 
-	<a href="females.html#lola">Rogus Maggie-May (Lola)</a> had kittens on December 22, 2012. 
+	<a href="male.php#panek">PL* Agumbamka Domalien (Panek)</a> and 
+	<a href="females.php#lola">Rogus Maggie-May (Lola)</a> had kittens on December 22, 2012. 
 	There are four kittens available for sale and collection at 12 weeks.
 </p>
 <img src="kittens/g/litter.jpg" style="padding-left:240px" />
 <p>
     Contact us by 
-	e-mail at <a href="mailto:<?=$emailaddr?>?Subject=Devon%20Rex%20-%20Litter%20G"><?=$emailaddr?>/a> or via
+	e-mail at <a href="mailto:<?=$emailaddr?>?Subject=Devon%20Rex%20-%20Litter%20G"><?=$emailaddr?></a> or via
     <a href="<?=$facebookurl?>" target="_parent">Facebook</a>.
 </p>
 <div class="new">
